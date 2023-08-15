@@ -1,0 +1,103 @@
+<html>
+<head> 
+<title>Form </title>
+</head>
+<body background="#">
+<center>
+<fieldset style="width:510px"><legend>User Details</legend>
+<table background="pattern.jpg" width="500px" border="2px" height="100px">
+<tr>
+<td background="pattern.jpg" colspan="2" height="30px"  width="150px">
+<font face="agency Fb">
+<h1 align="center"><u>Registration Form</u></h1>
+</font>
+</td>
+</tr>
+<tr>
+<td width="150px" height="30px">Your Name</td>
+<td height="30px"><input type="text" name="name" value="Enter Your Name Here"></input>
+</td>
+</tr>
+<tr>
+<td height="30px">Your Password</td>
+<td height="30px"><input type="text" name="password" value="Enter Your Password Here"></input>
+</td>
+</tr>
+</table>
+</fieldset>
+
+<fieldset style="width:510px"><legend>User Details</legend>
+<table bgcolor="gray" width="500px" border="2px" height="100px">
+<tr>
+<td width="150px" height="30px">Language</td>
+<td height="30px">
+<input type="checkbox" name="#" value="#">Urdu</input><br>
+<input type="checkbox" name="#" value="#">English</input><br>
+<input type="checkbox" name="#" value="#">Punjabi</input><br>
+<input type="checkbox" name="#" value="#">Sindhi</input><br>
+<input type="checkbox" name="#" value="#">Pushtoo</input>
+</td>
+</tr>
+<tr>
+<td height="30px">Qualification</td>
+<td height="30px">
+<select>
+<option>C.I.T</option>
+<option>D.I.T</option>
+<option>WDS</option>
+<option>SE</option>
+<option>GDS</option>
+</select>
+</td>
+</tr>
+<tr>
+<td height="30px">Gender</td>
+<td height="30px">
+<input type="radio" name="" value="">Male</input>
+<input type="radio" name="" value="">Female</input>
+</td>
+</tr>
+<tr>
+<td height="30px">Description</td>
+<td height="30px">
+<select multiple="">
+<option>Lorem ipsum dolor sit amet. Aliquam erat volutpat.volutpa</option>
+<option>Lorem ipsum dolor sit amet. Aliquam erat volutpat.volutpa</option>
+<option>Lorem ipsum dolor sit amet. Aliquam erat volutpat.volutpa</option>
+<option>Lorem ipsum dolor sit amet. Aliquam erat volutpat.volutpa</option>
+<option>Lorem ipsum dolor sit amet. Aliquam erat volutpat.volutpa</option>
+<option>Lorem ipsum dolor sit amet. Aliquam erat volutpat.volutpa</option>
+<option>Lorem ipsum dolor sit amet. Aliquam erat volutpat.volutpa</option>
+<option>Lorem ipsum dolor sit amet. Aliquam erat volutpat.volutpa</option>
+
+</select></td>
+</tr>
+<tr>
+<td height="30px">Additional Info</td>
+<td height="30px">
+<select multiple="" size="7">
+<option>Lorem ipsum dolor sit amet. Aliquam erat volutpat.volutpa</option>
+<option>Lorem ipsum dolor sit amet. Aliquam erat volutpat.volutpa</option>
+<option>Lorem ipsum dolor sit amet. Aliquam erat volutpat.volutpa</option>
+<option>Lorem ipsum dolor sit amet. Aliquam erat volutpat.volutpa</option>
+<option>Lorem ipsum dolor sit amet. Aliquam erat volutpat.volutpa</option>
+<option>Lorem ipsum dolor sit amet. Aliquam erat volutpat.volutpa</option>
+<option>Lorem ipsum dolor sit amet. Aliquam erat volutpat.volutpa</option>
+</select>
+</td>
+</tr>
+<tr>
+<td height="30px"></td>
+<td height="30px"> 
+<input type="button" name="Submit" value="Submit">
+<input type="button" name="reset" value="reset"></td>
+
+</tr>
+</table>
+</fieldset>
+
+
+
+
+</body>
+</html>
